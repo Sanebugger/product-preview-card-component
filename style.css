@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.whole{
+    width: 650px;
+    height: 500px;
+    background-color: black;
+    border-radius: 16px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leftdiv{
+    background-color: aqua;
+    grid-column: 1/2;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-image: url('./images/image-product-desktop.jpg');
+    background-size: cover;
+}
+.rightdiv{
+    background-color:white;
+    grid-column: 2/-1;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.rightdivcontent{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    height: 100%;
+    margin: auto;
+}
+.thindiv{
+    height: 10%;
+    padding-top: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+    letter-spacing: 6px;
+    font-size: small;
+    font-weight: bold;
+}
+.thickdiv{
+    height: 30%;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.thickdivpara{
+    height: 30%;
+    /* font-family: 'Lobster', cursive; */
+}
+.pricediv{
+    height: 15%;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: rgb(0, 102, 0);
+
+}
+.buttondiv{
+    height: 15%;
+}
+.buttondiv button{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.fa{
+    margin: 0px 10px;
+}
