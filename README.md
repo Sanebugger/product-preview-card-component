@@ -1,3 +1,9 @@
+# its a frontend challenge(which i have completed)
+https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub/product-preview-card-component-W5SPYSsVCg
+# preview:
+![Screenshot from 2022-10-01 10-25-09](https://user-images.githubusercontent.com/96644306/193393270-6a92dfe6-87c5-417e-a727-7ac6af52b106.png)
+
+
 # Frontend Mentor - Product preview card component
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
